@@ -56,7 +56,7 @@ if (numero3 == 3) {
 	}
 console.log("A partir de agora vai ficar dificil, deseja continuar?, digite 1 se sim, 2 se não")
 
-continuar = verificar("digite:")
+continuar = verificar("Digite:")
 
 if (continuar == 1 ){
 	console.log("Sim")
