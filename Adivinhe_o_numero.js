@@ -7,7 +7,7 @@ console.log("1.Entrar");
 console.log("2.Como vai funcionar?")
 console.log("3.Sair")
 
-var escolha = verificar("escolha:")
+var escolha = verificar("Escolha:")
 
 function jogar(){
 	jogando = true
@@ -101,7 +101,7 @@ if (continuar == 1 ){
 
 		numero6 = verificar("Escolha um numero:")
 
-		if (numero6 == 33) {
+		if (numero6 == 36) {
 			console.log("Acertou")
 			console.log("")
 		} else {
