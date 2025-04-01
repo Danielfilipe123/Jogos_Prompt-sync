@@ -41,8 +41,8 @@ while (começar) {
             { pergunta: "Qual linguagem de programação é amplamente usada para sistemas de alto desempenho, como jogos e engines gráficas?", resposta: "C++" },
         ];
 
-        let acertos = 0;
-        let erros = 0;
+        acertos = 0;
+        erros = 0;
 
         for (i = 0; i < perguntas.length; i++) {
             console.log(`\n${i + 1}. ${formatarTexto(perguntas[i].pergunta, larguraMaxima)}`);
