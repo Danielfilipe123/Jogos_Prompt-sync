@@ -49,10 +49,10 @@ while (começar) {
             responder = verificar("Resposta: ");
 
             if (responder.trim().toLowerCase() === perguntas[i].resposta.toLowerCase()) {
-                console.log("Resposta correta!\n");
+                console.log("Resposta correta\n");
                 acertos++;
             } else {
-                console.log(`Resposta errada! A resposta correta era: ${perguntas[i].resposta}\n`);
+                console.log(Resposta errada)
                 erros++;
             }
         }
