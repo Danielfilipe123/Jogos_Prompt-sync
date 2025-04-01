@@ -52,7 +52,7 @@ while (começar) {
                 console.log("Resposta correta\n");
                 acertos++;
             } else {
-                console.log(Resposta errada)
+                console.log("Resposta errada\n")
                 erros++;
             }
         }
