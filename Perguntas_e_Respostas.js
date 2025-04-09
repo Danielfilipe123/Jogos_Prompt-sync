@@ -29,10 +29,10 @@ while (começar) {
     function jogar() {
         const larguraMaxima = process.stdout.columns || 80;
         const perguntas = [
-            { pergunta: "Qual linguagem é baseada em protótipos e é essencial para o desenvolvimento web moderno?", resposta: "JavaScript" },
+            { pergunta: "Qual linguagem é baseada em orientação a objetos e é essencial para o desenvolvimento web front-end moderno?", resposta: "JavaScript" },
             { pergunta: "Qual sistema de gerenciamento de banco de dados relacional é amplamente usado em aplicações web e suporta SQL como linguagem de consulta?", resposta: "MySQL" },
-            { pergunta: "Qual linguagem de programação é frequentemente usada para criar sites dinâmicos e processar formulários no backend?", resposta: "PHP" },
-            { pergunta: "Qual linguagem é composta por elementos chamados de 'tags' e define a estrutura de uma página da web?", resposta: "HTML" },
+            { pergunta: "Qual linguagem de programação é frequentemente usada para criar sites estaticos e processar formulários no backend de forma nativa?", resposta: "PHP" },
+            { pergunta: "Qual linguagem de marcação é composta por elementos chamados de 'tags' e define a estrutura de uma página da web?", resposta: "HTML" },
             { pergunta: "Qual tecnologia permite personalizar o visual de uma página da web, incluindo cores, fontes e posicionamento?", resposta: "CSS" },
             { pergunta: "Qual linguagem orientada a objetos é usada para desenvolvimento Android e aplicações corporativas?", resposta: "Java" },
             { pergunta: "Qual framework front-end utiliza uma abordagem baseada em compilação para melhorar o desempenho da interface?", resposta: "Svelte" },

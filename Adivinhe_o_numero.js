@@ -173,7 +173,7 @@ console.log("10. De 1 a 9999999999999")
 
 numero10 = verificar("ESCOLHA O NUMERO E FALHE MISERAVELMENTE:")
 
-if (numero10 == 4020){
+if (numero10 == 4020) {
 	console.log("Impossi, que dizer, você ganhouuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu, parabens jogador, você zerou o jogo, como recompensa, toma esse coelho imaginario: ")
 	console.log("(\\_/)\n( •.•)\n(\")_(\")");
 	console.log("\n")
