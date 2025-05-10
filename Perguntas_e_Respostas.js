@@ -68,7 +68,7 @@ while (começar) {
 
     switch (escolha) {
         case "1":
-            console.log("Pronto para jogar!\n");
+            console.log("Pronto para jogar\n");
             jogar();
             break;
         case "2":
