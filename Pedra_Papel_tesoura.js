@@ -1,4 +1,4 @@
-const verificar = require("prompt-sync")({sigint:true});//
+const verificar = require("prompt-sync")({sigint:true});
 var começar = true
 while (começar){
 console.log("Seja bem vindo ao Pedra, Papel ou Tesoura")
