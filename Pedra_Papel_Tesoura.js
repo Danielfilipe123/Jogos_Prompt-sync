@@ -104,7 +104,7 @@ case "3":
 	regras()
 	break;
 case "4":
-	console.log("saindo")
+	console.log("Saindo....")
 	começar = false 
 	break;
 	}
