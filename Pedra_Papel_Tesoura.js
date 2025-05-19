@@ -31,8 +31,8 @@ if (!opcoes.includes(jogador)) {
   console.log(`${jogador} empata com ${computador}, EMPATE`);
   console.log("")
 } else if (
-  (jogador == opcoes[0] && computador ===opcoes[2]) ||
-  (jogador == opcoes[1] && computador === opcoes[0]) ||
+  (jogador === opcoes[0] && computador === opcoes[2]) ||
+  (jogador === opcoes[1] && computador === opcoes[0]) ||
   (jogador === opcoes[2] && computador === opcoes[1])
 ) {
   console.log(`${jogador} ganha de ${computador}, o jogador VENCEU`);
@@ -64,8 +64,8 @@ if (!opcoes.includes(jogador1) || !opcoes.includes(jogador2)) {
   console.log(`${jogador1} empata com ${jogador2}, EMPATE`);
   console.log("")
 } else if (
-  (jogador1 == opcoes[0] && jogador2 ===opcoes[2]) ||
-  (jogador1 == opcoes[1] && jogador2 === opcoes[0]) ||
+  (jogador1 === opcoes[0] && jogador2 === opcoes[2]) ||
+  (jogador1 === opcoes[1] && jogador2 === opcoes[0]) ||
   (jogador1 === opcoes[2] && jogador2 === opcoes[1])
 ) {
   console.log(`${jogador1} ganha de ${jogador2}, o jogador1 VENCEU `);
